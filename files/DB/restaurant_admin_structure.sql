@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 13, 2014 at 12:29 PM
+-- Generation Time: Jan 13, 2014 at 02:24 PM
 -- Server version: 5.5.34
 -- PHP Version: 5.3.10-1ubuntu3.9
 
@@ -214,6 +214,8 @@ CREATE TABLE IF NOT EXISTS `counter_items` (
   `item_id` int(11) NOT NULL,
   `date` datetime NOT NULL,
   `quantity` double NOT NULL,
+  `sync` tinyint(1) NOT NULL DEFAULT '0',
+  `sync_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
