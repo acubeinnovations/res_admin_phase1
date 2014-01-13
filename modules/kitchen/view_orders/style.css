@@ -1,0 +1,14 @@
+.item_finished {
+background-color:#093;
+}
+
+
+.item_to_kitchen {
+
+padding: 0.9375rem;
+text-align: center;
+color: #333333;
+font-size: 0.875rem;
+font-weight: normal;
+border-bottom: dotted 1px #dddddd;
+}

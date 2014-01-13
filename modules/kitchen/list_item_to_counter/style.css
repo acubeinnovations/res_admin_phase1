@@ -1,0 +1,11 @@
+#item-container{
+background:#C60 !important;
+min-height:500px !important;
+box-shadow:1px 1px 1px 1px gray;
+border:1px solid gray;
+padding:5px;
+}
+#item-container.button{
+width:150px;
+
+}

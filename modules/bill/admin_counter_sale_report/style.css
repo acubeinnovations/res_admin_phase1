@@ -1,0 +1,18 @@
+@media screen
+  {
+  #printable-div{
+	  display:none;
+  }
+  }
+@media print
+  {
+ #media{
+	  display:none;
+  }
+  .reveal-modal{
+	  display:none !important;
+  }
+  
+  }
+
+

@@ -1,0 +1,233 @@
+@media screen
+  {
+  #printable-div{
+	  display:none;
+  }
+  }
+@media print
+  {
+ #media{
+	  display:none;
+  }
+  .reveal-modal{
+	  display:none !important;
+  }
+  
+  }
+
+.parent {
+
+	min-height:550px;
+}
+
+P.pagebreakhere {
+page-break-before: always;
+}
+.bill{
+    overflow:auto;
+	height:400px !important;
+   	width:340px;
+	border:1px solid #81DAF5;
+	float:left;
+	margin-bottom:10px;
+}
+
+.row_bill_items{
+	height:10px !important;
+	padding-top:5px;
+}
+.items-ajax{
+height:10px !important;
+}
+
+.bill_parcel_div{
+display:none;
+
+}
+.bill_paid_div{
+display:none;
+}
+.bill_paid{
+
+font-size: 5px;
+    text-align:center;
+   height:30px !important;
+    width:150px !important;
+    border:1px solid black;
+}
+.bill_parcel{
+
+font-size: 5px;
+    text-align:center;
+   height:30px !important;
+    width:150px !important;
+    border:1px solid black;
+}
+#bill_det{
+    float:left;
+	height:40px !important;
+   }
+#payment{
+	float:left;
+	min-height:24px;
+
+
+}
+
+.item_quantity{
+    font-size: 5px;
+    text-align:center;
+   height:30px !important;
+    width:50px !important;
+    border:1px solid black;
+
+
+}
+
+.bill_discount{
+    font-size: 6px;
+    text-align:center;
+   	height:20px !important;
+    width:25px !important;
+    border:1px solid black;
+
+
+}
+.calculater{
+display:none;
+float:right;
+height:10px;
+width:40px;
+}
+
+.myalert{
+display:none;
+}
+
+.row_bill_items {
+   font-size: 13px;
+ 	vertical-align:middle;
+	text-align:center;
+    height:25px;
+
+}
+
+.bill_number{
+display:none;
+color: #000000 !important;
+background-color: #fff !important;
+font-weight:bold;
+border:1px solid black;
+cursor:default !important;
+
+}
+
+button.bill_item_cancel, .button.bill_item_cancel{
+padding-top: 0.1rem;
+padding-bottom: 0.1rem;
+height:20px !important;
+width:10px !important;
+}
+button.parcel, .button.parcel{
+padding-top: 0.1rem;
+background-color:#0070FF;
+padding-bottom: 0.1rem;
+height:20px !important;
+width:10px !important;
+color:#fff;
+}
+
+
+.tot_button_val{
+color: #000000 !important;
+background-color: #fff !important;
+font-weight:bold;
+border:1px solid black;
+cursor:default !important;
+
+}
+.change{
+color: #000000;
+background-color: #CCC;
+font-weight:bold;
+}
+.paid{
+color: #000000;
+background-color: #CCC;
+font-weight:bold;
+}
+.discount{
+color: #000000;
+background-color: #CCC;
+
+}
+
+.calc{
+
+width:400px !important;
+}
+
+.discount_calc{
+
+width:400px !important;
+}
+.counter{
+background:#ccc;
+min-height:500px;
+padding-bottom:20px;
+}
+
+.categories{
+background:#fff;
+height:400px;
+box-shadow:1px 1px 1px 1px gray;
+border:1px solid gray;
+display:block;
+overflow-y:scroll;
+margin-bottom:15px;
+}
+.categories .button{
+width:150px;
+margin:5px;
+}
+
+#item-container{
+background:#fff !important;
+min-height:500px !important;
+box-shadow:1px 1px 1px 1px gray;
+border:1px solid gray;
+padding:5px;
+}
+
+#item-container.button{
+width:150px;
+
+}
+#bill-container{
+background:#FAFAFA !important;
+min-height:500px !important;
+box-shadow:1px 1px 1px 1px gray;
+border:1px solid gray;
+
+}
+.payment .button{
+width:110px;
+margin-top:5px;
+margin-bottom:5px;
+}
+table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoot tr td {
+    display: table-cell;
+    line-height: 0.125rem;
+}
+table {
+    background: none repeat scroll 0% 0% white;
+    margin-bottom: 1.25rem;
+    border: 0px solid rgb(221, 221, 221);
+	width:280px;
+}
+table tr:nth-of-type(2n) {
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+}
+table th:nth-of-type(n) {
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+}

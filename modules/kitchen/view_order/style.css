@@ -1,0 +1,40 @@
+.button.success {
+background-color: #CCC;
+
+}
+.button.alert {
+background-color: #CCC;	
+}
+
+.button {
+background-color: #CCC;	
+
+}
+
+.newbutton {
+/*background-color: #CCC;
+*/
+}
+
+
+button.tiny, .button.tiny{
+padding-top: 0.1rem;
+padding-bottom: 0.1rem;
+}
+
+button.tiny, .button.tiny2{
+padding-top: 0.1rem;
+padding-bottom: 0.1rem;
+padding-left:1rem;
+
+}
+
+button.tiny, .button.tiny3{
+padding-top: 0.1rem;
+padding-bottom: 0.1rem;
+}
+
+button.tiny, .button.tiny4{
+padding-top: 0.1rem;
+padding-bottom: 0.1rem;
+}

@@ -1,0 +1,94 @@
+.parent {
+    width:6000px;
+	height:550px;
+}
+
+.bill{
+    overflow:auto;
+	height:300px;
+    width:400px;
+	border:2px solid #a1a1a1;
+	padding:10px 40px; 
+	border-radius:25px;
+	
+}
+.item_quantity{
+    font-size: 6px;
+    text-align:center;
+   	height:27px !important;
+    width:40px !important;
+    border:1px solid black;
+    
+	
+}
+.calculater{
+display:none;
+float:right;
+height:10px;
+width:40px;
+}
+/*
+.items{
+ height:350px;
+ width:500px;
+}
+*/
+.myalert{
+display:none;
+}
+
+.row_bill_items {
+   font-size: 13px;
+ 	vertical-align:middle;
+	text-align:center;
+    
+    
+}
+
+button.bill_item_cancel, .button.bill_item_cancel{
+padding-top: 0.1rem;
+padding-bottom: 0.1rem;
+height:20px !important;
+width:10px !important;
+}
+
+input[type="text"]{
+width:50px;
+background-color: #F8F8F8;
+}
+input[type="text"][disabled]{
+	background-color: #FFF;
+	border:none;
+	border-bottom:none;
+	border-top:none;
+	border-left:none;
+	}
+
+#item-container{
+background:#fff !important;
+min-height:500px !important;
+box-shadow:4px 1px 1px 1px gray;
+border:1px solid gray;
+padding:5px;
+}
+#item-container.button{
+width:150px;
+
+}
+.categories{
+background:#fff;
+height:400px;
+box-shadow:1px 1px 1px 1px gray;
+border:1px solid gray;
+display:block;
+overflow-y:scroll;
+margin-bottom:15px;
+}
+.categories .button{
+width:150px;
+margin:5px;
+}
+
+.pricing-table .title {
+background-color: #2ba6cb;
+}

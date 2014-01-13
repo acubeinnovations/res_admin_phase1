@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="shortcut icon" href="/images/layouts/default/favicon.ico" type="image/x-icon" />
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title><?php if (!empty($this->title)) echo $this->title ?></title>
+<link rel="stylesheet" href="/style/default.css" type="text/css" media="screen" title="default" />
+  <?php if (!empty($this->script)) echo $this->script ?>
+  <?php if (!empty($this->style)) echo $this->style ?>
+</head>
+
+<body>
+<div id="header">
+	<div id="logo"> <a href="index.php" ><img src="/images/layouts/default/logo.png"></a>	</div>
+	<h2>Administration Panel</h2>
+</div>
+<div id="menu_bar">
+	<?php if (isset($menu)) echo $menu ?>
+</div>
+<div id="content">
+<?php if (isset($content)) echo $content; ?>
+<?php if (isset($this->print_page)) echo $this->print_page;  ?>
+
+</div>
+<div id="footer">
+	<?php if (isset($footer)) echo $footer ?> Copyright &copy; Acube Innovations Private Limitted. All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+
+
+</body>
+</html>
