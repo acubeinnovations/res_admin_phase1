@@ -6,6 +6,10 @@
 
 # Ignore connection.php
 /include/connection/connection.php
+/files/DB/sync-2014-01-14 16:15:02
+/files/DB/sync-2014-01-14 16:16:08
+/files/DB/sync-2014-01-14 16:16:32
+/files/DB/sync-2014-01-14 16:18:16
 # Ignore ~ hidden
 *.php~
 .gitignore~
